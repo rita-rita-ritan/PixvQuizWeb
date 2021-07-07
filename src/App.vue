@@ -120,7 +120,7 @@ export default {
     },
     getNextImage: function () {
       axios
-        .get('/image')
+        .get(process.env.API_BASE_URL + '/image')
         .then(response => (this.imageResponse = response.data))
     },
     disableNextButton: function () {
