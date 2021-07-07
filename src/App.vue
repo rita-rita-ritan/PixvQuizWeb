@@ -106,7 +106,7 @@ export default {
   },
   mounted () {
     axios
-      .get('/image')
+      .get(process.env.VUE_APP_API_BASE_URL + '/image')
       .then(response => (this.imageResponse = response.data))
   },
   methods: {
@@ -120,7 +120,7 @@ export default {
     },
     getNextImage: function () {
       axios
-        .get(process.env.API_BASE_URL + '/image')
+        .get(process.env.VUE_APP_API_BASE_URL + '/image')
         .then(response => (this.imageResponse = response.data))
     },
     disableNextButton: function () {
