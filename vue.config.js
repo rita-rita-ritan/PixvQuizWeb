@@ -2,7 +2,7 @@ module.exports = {
   pages: {
     index: {
       entry: "src/main.js",
-      title: 'PixivQuiz',
+      title: 'pixivQuiz (fanmade)',
     }
   },
   transpileDependencies: [
