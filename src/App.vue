@@ -14,7 +14,7 @@
           transition="scale-transition"
           width="40"
         /> -->
-        <h1>Pixiv Quiz</h1>
+        <h1>pixivQuiz (fanmade)</h1>
 
         <!-- <v-img
           alt="Vuetify Name"
